@@ -1,0 +1,13 @@
+version: "3"
+
+vars:
+
+tasks:
+  update:
+    desc: Update cdn
+    cmds:
+      - git add .
+      - git commit -m "update images"
+      - git push
+
+
