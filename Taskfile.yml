@@ -3,6 +3,10 @@ version: "3"
 vars:
 
 tasks:
+  default:
+    desc: Update cdn
+    cmds:
+      - task: update
   update:
     desc: Update cdn
     cmds:
