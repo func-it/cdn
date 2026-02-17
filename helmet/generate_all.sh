@@ -2,14 +2,14 @@
 # Generate all helmet variants: 2 themes (light/dark) × many color modes.
 #
 # Output structure:
-#   output/<color_mode>/helmet_<theme>.png
-#   output/<color_mode>/helmet_<theme>.jpg
+#   <color_mode>/helmet_<theme>.png
+#   <color_mode>/helmet_<theme>.jpg
 
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 COLORIZE="$SCRIPT_DIR/colorize.sh"
-OUT_DIR="${1:-$SCRIPT_DIR/output}"
+OUT_DIR="${1:-$SCRIPT_DIR}"
 SIZE="1024x1024"
 DIR="diag"
 COUNT=0
@@ -19,9 +19,11 @@ gen() {
   local folder="$1" name="$2" heart="$3" thick="$4" thin="$5" bubble="$6"
   local dir="$OUT_DIR/$folder"
   mkdir -p "$dir"
+  local bg="white"
+  [[ "$name" == *dark* ]] && bg="black"
   "$COLORIZE" \
     --heart "$heart" --thick-band "$thick" --thin-band "$thin" --bubble "$bubble" \
-    --direction "$DIR" --size "$SIZE" \
+    --direction "$DIR" --size "$SIZE" --bg "$bg" \
     --output "$dir/$name" > /dev/null
   COUNT=$((COUNT + 1))
   echo "  ✓ $folder/$name"
