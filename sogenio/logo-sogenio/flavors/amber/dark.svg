@@ -1,0 +1,72 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
+ preserveAspectRatio="xMidYMid meet">
+<metadata>
+Created by potrace 1.16, written by Peter Selinger 2001-2019
+</metadata>
+<style>
+  :root {
+    --color-primary: #000000;
+    --color-secondary: #000000;
+    --color-tertiary: #000000;
+    --color-accent: #000000;
+  }
+  .primary    { fill: var(--color-primary); }
+  .secondary  { fill: var(--color-secondary); }
+  .tertiary   { fill: var(--color-tertiary); }
+  .accent     { fill: var(--color-accent); }
+</style>
+<g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+stroke="none">
+<!-- Head / flame -->
+<path class="primary" d="M2490 5008 c0 -7 9 -38 21 -68 17 -44 20 -72 17 -140 -5 -123 -33
+-175 -175 -322 -88 -90 -120 -132 -144 -183 -42 -88 -54 -75 -53 53 l2 97 -59
+-63 c-71 -78 -149 -230 -178 -351 -62 -253 32 -543 224 -688 210 -160 490
+-188 724 -72 109 54 220 161 274 265 106 206 100 468 -15 699 -35 69 -66 115
+-77 115 -5 0 -11 -29 -14 -65 -8 -79 -27 -118 -66 -134 -43 -19 -82 3 -99 54
+-10 31 -11 58 -1 132 6 51 10 133 7 182 -4 80 -8 98 -45 173 -24 47 -66 110
+-98 146 -80 88 -245 202 -245 170z m-182 -1099 c86 -42 162 -144 162 -217 0
+-40 -36 -91 -75 -108 -135 -56 -325 87 -325 245 0 100 115 139 238 80z m682
+15 c42 -17 70 -55 70 -94 0 -89 -73 -194 -165 -236 -162 -76 -283 47 -197 199
+36 63 85 104 154 128 66 23 87 23 138 3z"/>
+<!-- Left eye -->
+<path class="accent" d="M2264 3845 c-44 -68 -37 -170 16 -217 38 -35 54 -35 90 0 64 65 58
+149 -16 210 -46 38 -68 40 -90 7z"/>
+<!-- Right eye -->
+<path class="accent" d="M2769 3833 c-64 -54 -71 -130 -18 -197 28 -36 83 -33 111 5 57 76 32
+219 -38 219 -12 0 -37 -12 -55 -27z"/>
+<!-- Flame tip left -->
+<path class="tertiary" d="M2350 4814 c0 -15 -16 -58 -35 -95 -38 -75 -47 -145 -20 -155 21 -9
+91 70 109 123 16 46 10 85 -19 129 -20 31 -35 30 -35 -2z"/>
+<!-- Flame tip right -->
+<path class="tertiary" d="M2982 4613 c-16 -41 -17 -51 -9 -120 9 -71 22 -86 49 -53 21 26 23
+74 4 144 -15 59 -29 67 -44 29z"/>
+<!-- Body / arms -->
+<path class="secondary" d="M1982 3270 c-90 -57 -149 -115 -203 -197 -118 -181 -164 -393 -119
+-547 7 -23 33 -61 68 -96 71 -73 134 -95 262 -94 109 1 190 23 315 84 95 47
+146 84 320 228 102 86 175 129 263 155 39 11 72 27 72 33 0 7 -35 30 -77 51
+-74 36 -81 38 -177 38 -111 -1 -149 -12 -386 -111 -112 -47 -119 -48 -240 -54
+-107 -5 -133 -9 -182 -32 -32 -15 -58 -24 -58 -20 0 19 44 69 77 88 26 14 41
+31 47 55 14 48 83 113 141 132 88 30 223 13 302 -38 20 -14 30 -13 100 10 124
+41 215 51 292 31 71 -18 155 -57 187 -87 33 -31 44 -24 44 27 0 30 4 43 11 38
+15 -9 49 -91 49 -120 0 -20 9 -29 43 -43 39 -17 104 -77 94 -88 -3 -2 -24 6
+-47 18 -60 32 -179 38 -267 14 -76 -21 -212 -107 -282 -178 l-44 -46 54 -34
+c131 -83 357 -157 481 -157 116 0 233 58 293 145 45 66 59 127 52 228 -17 240
+-165 480 -360 586 l-44 24 -63 -51 c-230 -186 -629 -187 -870 -2 -36 27 -70
+49 -76 50 -6 0 -39 -18 -72 -40z"/>
+<!-- Mouth -->
+<path class="secondary" d="M2114 2921 c-42 -19 -84 -63 -84 -89 0 -12 15 -14 88 -10 72 3 99 10
+160 38 40 18 71 38 69 43 -12 36 -167 48 -233 18z"/>
+<!-- Lower body / tail -->
+<path class="secondary" d="M2475 2438 c-104 -78 -252 -140 -375 -157 -40 -5 -77 -14 -82 -19
+-14 -14 28 -130 78 -217 98 -167 231 -264 486 -354 219 -78 270 -106 303 -172
+38 -73 9 -131 -110 -219 -118 -87 -150 -136 -150 -230 0 -78 14 -84 54 -25 43
+65 101 96 263 143 251 72 341 128 398 248 40 84 53 161 39 239 -16 89 -54 156
+-140 251 -97 105 -131 172 -134 258 -1 35 -5 68 -8 73 -4 6 -31 13 -60 16
+-122 12 -310 77 -432 148 -85 50 -87 50 -130 17z"/>
+</g>
+<defs><linearGradient id="grad-primary" gradientUnits="userSpaceOnUse" x1="0" y1="20480" x2="20480" y2="0"><stop offset="0%" stop-color="#FFA000"/><stop offset="50%" stop-color="#FFB300"/><stop offset="100%" stop-color="#FFCA28"/></linearGradient><linearGradient id="grad-secondary" gradientUnits="userSpaceOnUse" x1="0" y1="20480" x2="20480" y2="0"><stop offset="0%" stop-color="#FFA000"/><stop offset="50%" stop-color="#FFB300"/><stop offset="100%" stop-color="#FFCA28"/></linearGradient><linearGradient id="grad-tertiary" gradientUnits="userSpaceOnUse" x1="0" y1="20480" x2="20480" y2="0"><stop offset="0%" stop-color="#FFA000"/><stop offset="50%" stop-color="#FFB300"/><stop offset="100%" stop-color="#FFCA28"/></linearGradient></defs><style>.primary{fill:url(#grad-primary)}.secondary{fill:url(#grad-secondary)}.tertiary{fill:url(#grad-tertiary)}.accent{fill:#FFE082}</style>
+</svg>

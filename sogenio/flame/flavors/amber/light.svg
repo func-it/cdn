@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
+ preserveAspectRatio="xMidYMid meet">
+<metadata>
+Created by potrace 1.16, written by Peter Selinger 2001-2019
+</metadata>
+<style>
+  :root {
+    --color-primary: #000000;
+    --color-secondary: #000000;
+    --color-tertiary: #000000;
+    --color-accent: #000000;
+  }
+  .primary    { fill: var(--color-primary); }
+  .secondary  { fill: var(--color-secondary); }
+  .tertiary   { fill: var(--color-tertiary); }
+  .accent     { fill: var(--color-accent); }
+</style>
+<g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+stroke="none">
+<path class="primary" d="M2410 4941 c0 -5 9 -31 20 -56 119 -279 114 -590 -16 -864 -66 -140
+-124 -212 -394 -486 -136 -137 -260 -270 -277 -295 -42 -62 -139 -249 -147
+-281 -9 -39 -44 -79 -70 -79 -30 0 -60 34 -85 98 -27 67 -28 203 -4 319 9 45
+13 86 9 90 -10 10 -107 -94 -184 -196 -154 -205 -305 -516 -372 -764 -55 -206
+-65 -283 -65 -492 0 -202 8 -269 52 -455 57 -237 179 -495 321 -672 117 -147
+326 -321 500 -417 269 -148 652 -242 920 -228 384 22 726 141 997 347 66 50
+149 119 183 153 66 65 207 246 258 332 69 117 173 392 189 500 4 28 11 60 16
+72 4 12 15 93 24 179 14 131 15 179 5 279 -24 257 -71 454 -167 700 -56 142
+-155 327 -221 414 -23 31 -26 33 -33 15 -4 -10 -8 -46 -8 -79 -2 -95 -28 -229
+-56 -289 -50 -105 -143 -155 -263 -143 -74 8 -128 46 -167 117 l-30 55 1 195
+c0 108 6 213 12 235 21 76 35 259 29 385 -7 139 -27 233 -84 378 -136 348
+-402 649 -778 881 -100 62 -115 68 -115 52z m-680 -2815 c162 -41 317 -129
+415 -238 53 -59 75 -91 127 -188 143 -265 59 -498 -210 -585 -78 -25 -221 -17
+-327 19 -243 82 -454 307 -511 543 -19 81 -18 218 2 278 28 79 103 143 204
+171 61 17 232 16 300 0z m1960 -2 c93 -28 174 -93 205 -167 35 -84 28 -234
+-16 -357 -101 -279 -399 -500 -674 -500 -132 0 -228 40 -305 127 -66 76 -83
+116 -88 214 -7 132 20 221 106 359 89 142 274 273 456 320 91 24 242 26 316 4z"/>
+<path class="secondary" d="M1809 1913 c-38 -23 -77 -87 -100 -166 -31 -99 -24 -268 12 -347 97
+-209 291 -226 387 -34 29 57 56 197 48 248 -16 104 -121 232 -237 289 -61 31
+-75 32 -110 10z"/>
+<path class="secondary" d="M3230 1909 c-47 -15 -131 -72 -175 -121 -77 -85 -99 -184 -70 -314
+29 -130 88 -208 177 -233 94 -26 189 34 251 158 31 64 32 69 32 191 -1 145
+-20 209 -83 279 -41 46 -76 56 -132 40z"/>
+</g>
+<defs><linearGradient id="grad-primary" gradientUnits="userSpaceOnUse" x1="0" y1="20480" x2="20480" y2="0"><stop offset="0%" stop-color="#FF6F00"/><stop offset="50%" stop-color="#FF8F00"/><stop offset="100%" stop-color="#FFA000"/></linearGradient><linearGradient id="grad-secondary" gradientUnits="userSpaceOnUse" x1="0" y1="20480" x2="20480" y2="0"><stop offset="0%" stop-color="#FF6F00"/><stop offset="50%" stop-color="#FF8F00"/><stop offset="100%" stop-color="#FFA000"/></linearGradient><linearGradient id="grad-tertiary" gradientUnits="userSpaceOnUse" x1="0" y1="20480" x2="20480" y2="0"><stop offset="0%" stop-color="#FF6F00"/><stop offset="50%" stop-color="#FF8F00"/><stop offset="100%" stop-color="#FFA000"/></linearGradient></defs><style>.primary{fill:url(#grad-primary)}.secondary{fill:url(#grad-secondary)}.tertiary{fill:url(#grad-tertiary)}.accent{fill:#FF6F00}</style>
+</svg>
